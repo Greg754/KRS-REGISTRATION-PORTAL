@@ -1,0 +1,63 @@
+h2 {
+    color: white;
+    background-color: green;
+
+}
+h3 {
+    color:  white;
+    background-color: green;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+body {
+    width: 100%;
+    background-image: url(1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+   
+    font-family: sans-serif;
+}
+a {
+    color: blue;
+    .menu-bar {
+        background: black ;
+        text-align: center;
+    }
+}
+.main {
+    background: rgb(186, 188, 189) ;
+}
+.menu-bar {
+    background: rgb(0,100,0) ;
+}
+.menu-bar ul {
+    background: rgb(0,100,0) ;
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+li a {
+
+    color: white;
+    background-color: green;
+}
+.menu-bar ul li {
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.menu-bar ul li a {
+    text-decoration: none;
+    color: #fff;
+    background-color: green;
+}
+.active, .menu-bar ul li:hover {
+    background-color: #2bab0d;
+    border-radius: 3px;
+
+}
